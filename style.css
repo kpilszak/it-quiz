@@ -1,9 +1,12 @@
 body {
     background-color: #73AFBF;
     color: #ffffff;
+    font-family: 'Sigmar One', cursive;    
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 4em;
+    font-family: 'Share', cursive;
+    letter-spacing: 5px;
     text-align: center;
 }
