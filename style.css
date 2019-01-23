@@ -1,6 +1,6 @@
 body {
     background-color: #73AFBF;
-    color: #ffffff;
+    color: #FFFFFF;
     font-size: 1.2em;
     font-family: 'Sigmar One', cursive;    
 }
@@ -10,4 +10,12 @@ h1 {
     font-family: 'Share', cursive;
     letter-spacing: 5px;
     text-align: center;
+}
+
+.correct {
+    color: #255912;
+}
+
+.wrong {
+    color: #AD1E0E;
 }
