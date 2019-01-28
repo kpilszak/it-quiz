@@ -2,12 +2,18 @@ body {
     background-color: #73AFBF;
     color: #FFFFFF;
     font-size: 1.2em;
-    font-family: 'Sigmar One', cursive;    
+    font-family: 'Playfair Display', serif; 
+    letter-spacing: 2px;
+}
+
+#container {
+    
 }
 
 h1 {
-    font-size: 3em;
-    font-family: 'Share', cursive;
+    margin-bottom: 50px;
+    font-size: 2em;
+    font-family: 'Playfair Display', serif;
     letter-spacing: 5px;
     text-align: center;
 }
