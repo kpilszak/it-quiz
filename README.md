@@ -27,5 +27,5 @@ Recommended minimal browser versions:
 ## Setup
 To run this project, open this in a new tab: <a href="https://kpilszak.github.io/it-quiz/">https://kpilszak.github.io/it-quiz/</a>
 
-## Sources
+## Source
 This project is inspired with Joanna Bochyńska blog <a href="http://www.wakeupandcode.pl">http://www.wakeupandcode.pl</a>
