@@ -26,6 +26,10 @@ ul {
     color: #255912;
 }
 
+.correction {
+    display: none;
+}
+
 .wrong {
     color: #AD1E0E;
 }
