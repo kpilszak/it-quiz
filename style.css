@@ -8,7 +8,7 @@ body {
 }
 
 #container {
-    
+   
 }
 
 h1 {
@@ -21,8 +21,13 @@ h1 {
     text-align: center;
 }
 
+ol {
+    line-height: 2;
+}
+
 ul {
     list-style-type: none;
+    line-height: 2;
 }
 
 .correct {
