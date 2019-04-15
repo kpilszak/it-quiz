@@ -11,6 +11,13 @@ body {
    margin: 10px 50px;
 }
 
+#footer { 
+    padding: 10px 0px 10px 50px;
+    height: 20px;
+    background-color: #263A40;
+    font-size: 0.7em;
+}
+
 h1 {
     background-color: #263A40;
     margin: 0 0 50px 0;
