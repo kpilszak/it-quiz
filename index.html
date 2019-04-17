@@ -8,143 +8,283 @@
     </head>
     <body>
         <h1>IT Quiz</h1>
-        <div id="container">
+        <div id="container" class="md-checkbox">
             <ol>
-                
 				<li>java.lang.reflect package allows us to:
                     <ul>
-                        <li class="correct"><input type="checkbox">Invoke methods at runtime</li>
-                        <li><input type="checkbox">Have more than one superclass and inherit features from all parent classes<span class="correction"> It's called multiple inheritance, but is not allowed in Java. It's allowed in C++</span></li>
-                        <li class="correct"><input type="checkbox">Access the private variables and methods</li>
-                        <li><input type="checkbox">Have multiple threads which exist within the context of one process<span class="correction"> It's not reflection, but multithreading</span></li>
+                        <li class="correct">
+                            <label><input type="checkbox">Invoke methods at runtime</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox">Have more than one superclass and inherit features from all parent classes</label>
+                            <span class="correction"> It's called multiple inheritance, but is not allowed in Java. It's allowed in C++</span>
+                        </li>
+                        <li class="correct">
+                            <label><input type="checkbox">Access the private variables and methods</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox">Have multiple threads which exist within the context of one process</label>
+                            <span class="correction"> It's not reflection, but multithreading</span>
+                        </li>
                     </ul>
                 </li>
                 <br>
 				<li>Which Java collections can have duplicate values:
                    <ul>
-                       <li><input type="checkbox">TreeSet<span class="correction"> Every set has unique values</span></li>
-                       <li class="correct"><input type="checkbox">LinkedList</li>
-                       <li class="correct"><input type="checkbox">ArrayList</li>
-                       <li class="correct"><input type="checkbox">HashMap</li>
+                       <li>
+                           <label><input type="checkbox">TreeSet</label>
+                           <span class="correction"> Every set has unique values</span>
+                       </li>
+                       <li class="correct">
+                           <label><input type="checkbox">LinkedList</label>
+                       </li>
+                       <li class="correct">
+                           <label><input type="checkbox">ArrayList</label>
+                       </li>
+                       <li class="correct">
+                           <label><input type="checkbox">HashMap</label>
+                       </li>
                    </ul>                    
                 </li>
                 <br>
                 <li>Pick possible purposes of Java annotations:
 					<ul>
-                        <li class="correct"><input type="checkbox">Compiler instructions</li>
-                        <li class="correct"><input type="checkbox">Built-time instructions</li>
-                        <li><input type="checkbox">Changing instructions<span class="correction"> Annotations only provide metadata</span></li>
-                        <li class="correct"><input type="checkbox">Runtime instructions</li>
+                        <li class="correct">
+                            <label><input type="checkbox">Compiler instructions</label>
+                        </li>
+                        <li class="correct">
+                            <label><input type="checkbox">Built-time instructions</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox">Changing instructions</label>
+                            <span class="correction"> Annotations only provide metadata</span>
+                        </li>
+                        <li class="correct">
+                            <label><input type="checkbox">Runtime instructions</label>
+                        </li>
 					</ul>
 				</li>
                 <br>
 				<li>Which characteristics describe Java 8 streams?
 					<ul>
-                        <li class="correct"><input type="checkbox">Three parts are needed: the source, intermediate operation(s), terminal operation</li>
-                        <li><input type="checkbox">Can be reused<span class="correction"> Can't be reused</span></li>
-                        <li class="correct"><input type="checkbox">They will be invoked only if it is necessary for the terminal operation execution</li>
-                        <li><input type="checkbox">A few terminal operations can be used per stream<span class="correction"> Only one terminal operation can be used per stream</span></li>
+                        <li class="correct">
+                            <label><input type="checkbox">Three parts are needed: the source, intermediate operation(s), terminal operation</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox">Can be reused</label>
+                            <span class="correction"> Can't be reused</span>
+                        </li>
+                        <li class="correct">
+                            <label><input type="checkbox">They will be invoked only if it is necessary for the terminal operation execution</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox">A few terminal operations can be used per stream</label>
+                            <span class="correction"> Only one terminal operation can be used per stream</span>
+                        </li>
 					</ul>
 				</li>
                 <br>
 				<li>Select sentences which describe Java lambda expressions.
 					<ul>
-                        <li><input type="checkbox">Return the value with required "return" keyword<span class="correction"> Return statements as well as braces are optional in one-line lambda bodies</span></li>
-                        <li><input type="checkbox">Have following syntax: expression body -> parameter<span class="correction"> Correct syntax is parameter -> expression body</span></li>
-                        <li class="correct"><input type="checkbox">Are commonly used to implement simple event listeners / callbacks</li>
-                        <li class="correct"><input type="checkbox">Are functions which can be created without belonging to any class</li>
+                        <li>
+                            <label><input type="checkbox">Return the value with required "return" keyword</label>
+                            <span class="correction"> Return statements as well as braces are optional in one-line lambda bodies</span>
+                        </li>
+                        <li>
+                            <label><input type="checkbox">Have following syntax: expression body -> parameter</label>
+                            <span class="correction"> Correct syntax is parameter -> expression body</span>
+                        </li>
+                        <li class="correct">
+                            <label><input type="checkbox">Are commonly used to implement simple event listeners / callbacks</label>
+                        </li>
+                        <li class="correct">
+                            <label><input type="checkbox">Are functions which can be created without belonging to any class</label>
+                        </li>
 					</ul>
 				</li>
                 <br>
 				<li>What are the goals of Spring Boot?
 					<ul>
-                        <li class="correct"><input type="checkbox">To develop a production ready Spring applications in an easier way</li>
-                        <li><input type="checkbox">To enable you to have external Tomcat server<span class="correction"> The goal is to have embedded Apache Tomcat server</span></li>
-                        <li class="correct"><input type="checkbox">To avoid complex XML configuration in Spring</li>
-                        <li class="correct"><input type="checkbox">To reduce the development time and run the application independently</li>
+                        <li class="correct">
+                            <label><input type="checkbox">To develop a production ready Spring applications in an easier way</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox">To enable you to have external Tomcat server</label>
+                            <span class="correction"> The goal is to have embedded Apache Tomcat server</span>
+                        </li>
+                        <li class="correct">
+                            <label><input type="checkbox">To avoid complex XML configuration in Spring</label>
+                        </li>
+                        <li class="correct">
+                            <label><input type="checkbox">To reduce the development time and run the application independently</label>
+                        </li>
 					</ul>
 				</li>
                 <br>
 				<li>What are the advantages of Dropwizard Java framework that enables you to develop high-performance restful web services faster?
 					<ul>
-                        <li><input type="checkbox">Automatically creates configuration file<span class="correction"> You need to create configuration file by yourself</span></li>
-                        <li class="correct"><input type="checkbox">Uses some of the stable libraries to create simple, light-weight package</li>
-                        <li class="correct"><input type="checkbox">Supports Maven</li>
-                        <li><input type="checkbox">By default, runs its endpoints on /home<span class="correction"> By default, runs its endpoints on /path</span></li>
+                        <li>
+                            <label><input type="checkbox">Automatically creates configuration file</label>
+                            <span class="correction"> You need to create configuration file by yourself</span>
+                        </li>
+                        <li class="correct">
+                            <label><input type="checkbox">Uses some of the stable libraries to create simple, light-weight package</label>
+                        </li>
+                        <li class="correct">
+                            <label><input type="checkbox">Supports Maven</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox">By default, runs its endpoints on /home</label>
+                            <span class="correction"> By default, runs its endpoints on /path</span>
+                        </li>
 					</ul>
 				</li>
                 <br>
                 <li>What are the advantages of REST?
                     <ul>
-                        <li><input type="checkbox">Stateless, which provides security for users<span class="correction"> Stateless provides speed, but is not safe. SOAP provides much more security</span></li>
-                        <li class="correct"><input type="checkbox">Platform independent</li>
-                        <li><input type="checkbox">Scalability thanks to lack of separation between client and server<span class="correction"> Scalability is thanks to separation between client and server</span></li>
-                        <li class="correct"><input type="checkbox">Clients can have a generic ‘listener’ interface for notifications</li>
+                        <li>
+                            <label><input type="checkbox">Stateless, which provides security for users</label>
+                            <span class="correction"> Stateless provides speed, but is not safe. SOAP provides much more security</span>
+                        </li>
+                        <li class="correct">
+                            <label><input type="checkbox">Platform independent</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox">Scalability thanks to lack of separation between client and server</label>
+                            <span class="correction"> Scalability is thanks to separation between client and server</span>
+                        </li>
+                        <li class="correct">
+                            <label><input type="checkbox">Clients can have a generic ‘listener’ interface for notifications</label>
+                        </li>
                     </ul>
                 </li>
                 <br>
                 <li>Which setences describe Hibernate?
                     <ul>
-                        <li class="correct"><input type="checkbox">If there is change in the database or in any table, then you need to change the XML file properties only</li>
-                        <li><input type="checkbox">Maximizes database access<span class="correction"> Minimizes database access</span></li>
-                        <li class="correct"><input type="checkbox">Hibernate does not require an application server to operate</li>
-                        <li class="correct"><input type="checkbox">Provides simple querying of data</li>
+                        <li class="correct">
+                            <label><input type="checkbox">If there is change in the database or in any table, then you need to change the XML file properties only</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox">Maximizes database access</label>
+                            <span class="correction"> Minimizes database access</span>
+                        </li>
+                        <li class="correct">
+                            <label><input type="checkbox">Hibernate does not require an application server to operate</label>
+                        </li>
+                        <li class="correct">
+                            <label><input type="checkbox">Provides simple querying of data</label>
+                        </li>
                     </ul>
                 </li>
                 <br>
                 <li>What is the most common type of join in SQL?
                     <ul>
-                        <li><input type="checkbox">JOINED</li>
-                        <li><input type="checkbox">JOINED TABLE</li>
-                        <li class="correct"><input type="checkbox">INNER JOIN</li>
-                        <li><input type="checkbox">INSIDE JOIN</li>
+                        <li>
+                            <label><input type="checkbox">JOINED</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox">JOINED TABLE</label>
+                        </li>
+                        <li class="correct">
+                            <label><input type="checkbox">INNER JOIN</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox">INSIDE JOIN</label>
+                        </li>
                     </ul>
                 </li>
                 <br>
                 <li>Docker is Container Management Service. What are the key concepts?
                     <ul>
-                        <li class="correct"><input type="checkbox">Easily develop applications</li>
-                        <li><input type="checkbox">Use any free resources<span class="correction"> Docker ensures that applicationa only uses resources that have been assigned to them</span></li>
-                        <li class="correct"><input type="checkbox">Ship applications into containers</li>
-                        <li class="correct"><input type="checkbox">Run anywhere</li>
+                        <li class="correct">
+                            <label><input type="checkbox">Easily develop applications</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox">Use any free resources</label>
+                            <span class="correction"> Docker ensures that applicationa only uses resources that have been assigned to them</span>
+                        </li>
+                        <li class="correct">
+                            <label><input type="checkbox">Ship applications into containers</label>
+                        </li>
+                        <li class="correct">
+                            <label><input type="checkbox">Run anywhere</label>
+                        </li>
                     </ul>
                 </li>
                 <br>
                 <li>Let's focus on clean code principles. Which one from SOLID does the following sentence describe?
                     "A is written by the developer AA, and if the developer BB wants some modification on that then developer BB should be easily do that by extending class A".
                     <ul>
-                        <li><input type="checkbox">Single Responsibility Principle</li>
-                        <li class="correct"> <input type="checkbox">Open/Closed Principle</li>
-                        <li><input type="checkbox">Liskov’s Substitution Principle</li>
-                        <li><input type="checkbox">Interface Segregation Principle</li>
-                        <li><input type="checkbox">Dependency Inversion Principle</li>
+                        <li>
+                            <label><input type="checkbox">Single Responsibility Principle</label>
+                        </li>
+                        <li class="correct">
+                            <label><input type="checkbox">Open/Closed Principle</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox">Liskov’s Substitution Principle</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox">Interface Segregation Principle</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox">Dependency Inversion Principle</label>
+                        </li>
                     </ul>
                 </li>
                 <br>
                 <li>Controller in Spring is:
                     <ul>
-                        <li><input type="checkbox">Abstract class</li>
-                        <li><input type="checkbox">Concrete class</li>
-                        <li><input type="checkbox">Final class</li>
-                        <li class="correct"><input type="checkbox">Interface</li>
+                        <li>
+                            <label><input type="checkbox">Abstract class</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox">Concrete class</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox">Final class</label>
+                        </li>
+                        <li class="correct">
+                            <label><input type="checkbox">Interface</label>
+                        </li>
                     </ul>
                 </li>
                 <br>
                 <li>Which command is used to obtain a repository from an existing URL?
                     <ul>
-                        <li><input type="checkbox">git init<span class="correction"> This command is used to start a new repository</span></li>
-                        <li class="correct"><input type="checkbox">git clone</li>
-                        <li><input type="checkbox">git add<span class="correction"> This command adds a file to the staging area</span></li>
-                        <li><input type="checkbox">git commit<span class="correction"> This command records or snapshots the file permanently in the version history</span></li>
+                        <li>
+                            <label><input type="checkbox">git init</label>
+                            <span class="correction"> This command is used to start a new repository</span>
+                        </li>
+                        <li class="correct">
+                            <label><input type="checkbox">git clone</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox">git add</label>
+                            <span class="correction"> This command adds a file to the staging area</span>
+                        </li>
+                        <li>
+                            <label><input type="checkbox">git commit</label>
+                            <span class="correction"> This command records or snapshots the file permanently in the version history</span>
+                        </li>
                     </ul>
                 </li>
                 <br>
                 <li>Which of the following are creational design patterns?
                     <ul>
-                        <li class="correct"><input type="checkbox">Singleton</li>
-                        <li class="correct"><input type="checkbox">Abstract Factory</li>
-                        <li><input type="checkbox">Facade<span class="correction"> It's structural design pattern</span></li>
-                        <li><input type="checkbox">Command<span class="correction"> It's behavioral design pattern</span></li>
+                        <li class="correct">
+                            <label><input type="checkbox">Singleton</label>
+                        </li>
+                        <li class="correct">
+                            <label><input type="checkbox">Abstract Factory</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox">Facade</label>
+                            <span class="correction"> It's structural design pattern</span>
+                        </li>
+                        <li>
+                            <label><input type="checkbox">Command<span class="correction"> It's behavioral design pattern</span></label>
+                        </li>
                     </ul>
                 </li>
                 
