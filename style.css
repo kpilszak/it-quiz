@@ -11,6 +11,10 @@ body {
    margin: 10px 50px;
 }
 
+#container input[type="checkbox"] {
+    margin-right: 20px;
+}
+
 #footer { 
     padding: 10px 0px 10px 50px;
     height: 20px;
