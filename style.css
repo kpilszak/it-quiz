@@ -41,6 +41,11 @@ ul {
     line-height: 2;
 }
 
+label {
+    padding: 3px;
+    border: 1px solid #263A40;
+}
+
 .correct {
     color: #255912;
 }
