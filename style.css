@@ -43,7 +43,8 @@ ul {
 
 label {
     padding: 3px;
-    border: 1px solid #263A40;
+    border: 1px solid #8AD1E5;
+    background-color: #8AD1E5;
 }
 
 .correct {
