@@ -15,6 +15,10 @@ body {
     margin-right: 20px;
 }
 
+#operate_btns {
+    margin: 40px 50px;
+}
+
 #footer { 
     padding: 10px 0px 10px 50px;
     height: 20px;
@@ -41,10 +45,17 @@ ul {
     line-height: 2;
 }
 
-label {
-    padding: 3px;
-    border: 1px solid #8AD1E5;
-    background-color: #8AD1E5;
+button {
+    background-color: #263A40;
+    color: #FFFFFF;
+    border: none;
+    margin: 15px;
+    margin-bottom: 0;
+    padding: 20px 40px;
+    font-size: 1.0em;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
 }
 
 .correct {
