@@ -45,6 +45,11 @@ ul {
     line-height: 2;
 }
 
+input {
+    width: 17px;
+    height: 17px;
+}
+
 button {
     background-color: #263A40;
     color: #FFFFFF;
