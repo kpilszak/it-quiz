@@ -75,6 +75,10 @@ button {
     display: none;
 }
 
+.greatAnswer {
+    color:aqua;
+}
+
 .wrong {
     color: #AD1E0E;
 }
